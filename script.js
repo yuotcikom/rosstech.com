@@ -35,9 +35,15 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Programmer", "Apps Developer"],
-        typeSpeed: 200,
-        backSpeed: 70,
+        strings: ["Developers", "Programmers", "Apps Developers"],
+        typeSpeed: 90,
+        backSpeed: 50,
+        loop: true
+    });
+    var typed = new Typed(".typing1", {
+        strings: ["Create Websites", "Develop Apps", "Train people", "Provide Assistance", "Manage Business"],
+        typeSpeed: 80,
+        backSpeed: 30,
         loop: true
     });
 
