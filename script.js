@@ -40,6 +40,13 @@ $(document).ready(function(){
         backSpeed: 50,
         loop: true
     });
+
+    var typed = new Typed(".typing2", {
+        strings: ["Web Services", "Mobile services", "Business Analysis", "Banking services"],
+        typeSpeed: 90,
+        backSpeed: 50,
+        loop: true
+    });
     var typed = new Typed(".typing1", {
         strings: ["Create Websites", "Develop Apps", "Train people", "Provide Assistance", "Manage Business"],
         typeSpeed: 80,
@@ -48,7 +55,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Programmer", "Apps Developer"],
+        strings: ["Web Developers", "Programmers", "Apps Developer"],
         typeSpeed: 200,
         backSpeed: 70,
         loop: true
@@ -76,3 +83,10 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1200
+    });
+  });
